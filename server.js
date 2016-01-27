@@ -75,6 +75,7 @@ var calculateIt = function(req, res, next) {
 
 	var total
 
+	// set value of total by determining the method and running the appropriate function
 	if (method == '+') {
 		total = addition(x,y);
 	} 
@@ -93,9 +94,11 @@ var calculateIt = function(req, res, next) {
 
 	var message
 
+	// if the method is not invalid, display the equation and the total
 	if (method != 'invalid') {
 		message = (x + ' ' + method + ' ' + y + ' = ' + total);
 	}
+	// if the method is not valid, display an error message
 	else {
 		message = 'ERROR. Please use a valid method';
 	}
