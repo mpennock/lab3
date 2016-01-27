@@ -1,0 +1,19 @@
+{
+  "name": "lab3",
+  "version": "1.0.0",
+  "description": "simple node calculator",
+  "scripts": {
+    "start": "nodemon server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mpennock/lab3.git"
+  },
+  "author": "Martin Pennock",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mpennock/lab3/issues"
+  },
+  "homepage": "https://github.com/mpennock/lab3#readme"
+}
