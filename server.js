@@ -73,7 +73,7 @@ var calculateIt = function(req, res, next) {
         "Content-Type": "text-plain"
     });
 
-	var total
+	var total;
 
 	// set value of total by determining the method and running the appropriate function
 	if (method == '+') {
@@ -92,7 +92,7 @@ var calculateIt = function(req, res, next) {
 		total = null;
 	}
 
-	var message
+	var message;
 
 	// if the method is not invalid, display the equation and the total
 	if (method != 'invalid') {
